@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PHOTOCLASSES</title>
+    <link rel="shortcut icon" href="imagenes/imagen.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="quinto">
+            <div class="contacto">
+                <div class="contactocontenedor">
+                    <h3>HABLA CON NOSOTROS</h3>
+                    
+
+                    <form class="formulario" >
+                        <div class="form">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+                        </div>
+                        <div class="form">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido" required placeholder="Apellido completo">
+                        </div>
+                        <div class="form">
+                            <label for="tipo_documento">Tipo de Documento</label>
+                            <select id="tipo_documento" name="tipo_documento" required>
+                                <option value="CC">Cédula de Ciudadanía</option>
+                                <option value="TI">Tarjeta de Identidad</option>
+                                <option value="CE">Cédula de Extranjería</option>
+                                <option value="PA">Pasaporte</option>
+                                <option value="PTP">Permiso de Permanencia</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label for="documento">Documento</label>
+                            <input type="text" id="documento" name="documento" required>
+                        </div>
+                        <div class="form">
+                            <label for="correo">Correo</label>
+                            <input type="email" id="correo" name="correo" required>
+                        </div>
+                        <div class="form">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form">
+                            <label for="programa">Programa</label>
+                            <select id="programa" name="programa" required>
+                                <option value="1">Fotografia Artistica</option>
+                                <option value="2">Fotoperiodismo</option>
+                                <option value="3">Diseño Fotografia</option>
+                                <option value="4">Diseño</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <label for="fecha_inicio">Fecha de Inicio</label>
+                            <input type="date" id="fecha_inicio" name="fecha_inicio" required>
+                        </div>
+                        <div class="boto"> 
+                            <button type="submit">Registrar</button>
+                        </div>
+                    </form>
+                    
+                    
+                </div>
+            </div>
+            <div class="contactoImg">
+                <img src="imagenes/chicaFoto.jpeg" alt="FotoPersonas">
+            </div>
+        </div>
+
+    </main>
+    <script src="include.js"></script>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
